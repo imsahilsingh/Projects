@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.switch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+.toggle {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: #eee;
+    border-radius: 50%;
+    transition: .5s;
+    transform: translateX(-17px);
+    cursor: pointer;
+}
+[type="checkbox"] {
+    transition: .5s;
+    visibility: hidden;
+}
+[type="checkbox"]:checked ~ .toggle{
+    /* background: #161616; */
+    transform: translateX(15px);
+    transition: .5s;
+}
+.active {
+    background: #161616;
+}
