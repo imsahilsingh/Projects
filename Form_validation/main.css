@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.container h1 {
+    background-color: aliceblue;
+    padding: 20px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-width: 400px;
+}
+form {
+    background-color: rgb(253, 253, 253);
+    padding: 1.2rem 1.7rem;
+
+}
+.control-form {
+    position: relative;
+    padding: 1.11rem 0;
+}
+.control-form label {
+    display: block;
+    font-size: 19px;
+    
+}
+.control-form input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgb(236, 236, 236);
+}
+.control-form small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.control-form.fail small {
+    visibility: visible;
+}
+.control-form.sucess input {
+    border: 2px solid rgb(5, 219, 5);
+}
+.control-form.fail input {
+    border: 2px solid rgb(245, 0, 0);
+}
+.control-form [type="submit"] {
+    width: 100%;
+    background: rgb(24, 163, 243);
+    color: white;
+    padding: 13px;
+    cursor: pointer;
+}

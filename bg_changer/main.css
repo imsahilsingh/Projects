@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+     display: grid;
+     place-items: center;
+     min-height: 100vh;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ button {
+     padding: 10px 50px;
+     font-size: 21px;
+     cursor: pointer;
+ }

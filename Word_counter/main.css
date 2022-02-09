@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.container {
+    font-size: 21px;
+    background: #c7c6db;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+.screen {
+    display: flex;
+    justify-content: space-between;
+}
+textarea {
+    font-size: 19px;
+    background: none;
+    border: none;
+}

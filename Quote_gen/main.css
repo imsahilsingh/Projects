@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #161616;
+    color: aliceblue;
+}
+.container {
+    border-radius: 10px;
+    width: 500px;
+}
+.quote {
+    font-size: 17px;
+}
+.author {
+    font-weight: bold;
+    padding: 20px;
+}
+.btn {
+    background: none;
+    font-size: 17px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #292929;
+}
