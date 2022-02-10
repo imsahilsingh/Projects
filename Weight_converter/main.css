@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    place-items: center;
+}
+.container {
+    padding: 10px 20px;
+    text-align: center;
+}
+.container h1 {
+    padding: 10px 15px;
+}
+input {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: brown;
+}
+span.result {
+    color: green;
+}
+form {
+    padding: 20px 15px;
+}
